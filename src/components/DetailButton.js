@@ -15,7 +15,6 @@ const DetailButton = ({ title, imageSource, results, navigation }) => {
         </TouchableOpacity>
     )
 }
-
 const styles = StyleSheet.create({
     image: {
         height: 150,

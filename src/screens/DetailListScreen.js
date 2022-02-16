@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
         width: '100%',
         marginBottom: 10,
         justifyContent: 'center',
-
     },
     keyItem: {
         fontSize: 22,

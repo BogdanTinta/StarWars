@@ -17,7 +17,6 @@ export default () => {
             setErrorMessage('Oops! There was a disturbance in the Force')
         }
     }
-
     useEffect(() => {
         apiRequest()
     }, [])

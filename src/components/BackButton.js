@@ -13,7 +13,6 @@ const BackButton = ({ destination, navigation }) => {
 
     )
 }
-
 const styles = StyleSheet.create({
     buttonContainer: {
         backgroundColor: '#FFE81F',

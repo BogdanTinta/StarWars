@@ -1,5 +1,4 @@
 import axios from 'axios'
-
 export const fetchResults = async (link) => {
     return axios
         .get(link)

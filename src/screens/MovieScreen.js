@@ -34,7 +34,6 @@ const MovieScreen = ({ navigation }) => {
     )
 
 }
-
 MovieScreen.navigationOptions = () => {
     return {
         headerShown: false,

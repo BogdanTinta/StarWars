@@ -53,7 +53,6 @@ DetailScreen.navigationOptions = () => {
         headerShown: false,
     }
 }
-
 const styles = StyleSheet.create({
     item: {
         textAlign: 'center',
