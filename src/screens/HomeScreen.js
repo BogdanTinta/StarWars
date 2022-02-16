@@ -3,6 +3,7 @@ import { Text, View, StyleSheet, ImageBackground, TouchableOpacity } from 'react
 
 const HomeScreen = ({ navigation }) => {
 
+    
     return (
         <ImageBackground
             source={require('../../assets/starwars_background.jpg')}

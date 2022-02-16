@@ -15,6 +15,7 @@ const MovieListScreen = ({ navigation }) => {
         require('../../assets/movie_images/return_of_the_jedi.jpg'),
     ]
 
+    
     useEffect(() => {
         apiRequest('/films')
     }, [])

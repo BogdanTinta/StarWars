@@ -14,6 +14,7 @@ const MovieScreen = ({ navigation }) => {
         apiRequest(`/films/${apiFilmId}`)
     }, [])
 
+    
     return (
         <ImageBackground source={require('../../assets/space_background.jpg')} style={{ flex: 1 }}>
             <BackButton destination={'MovieList'} />

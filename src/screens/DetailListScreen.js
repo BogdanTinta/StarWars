@@ -3,6 +3,7 @@ import { View, StyleSheet, Text, ImageBackground, FlatList } from 'react-native'
 import BackButton from '../components/BackButton'
 import { withNavigation } from 'react-navigation'
 
+
 const DetailListScreen = ({ navigation }) => {
     const data = navigation.getParam('data')
     const imageSource = navigation.getParam('imageSource')

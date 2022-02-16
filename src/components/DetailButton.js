@@ -2,6 +2,7 @@ import React from 'react'
 import { TouchableOpacity, StyleSheet, Image, View, Text } from 'react-native'
 import { withNavigation } from 'react-navigation'
 
+
 const DetailButton = ({ title, imageSource, results, navigation }) => {
 
     return (

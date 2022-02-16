@@ -5,6 +5,7 @@ import { withNavigation } from 'react-navigation'
 import { fetchResults } from '../api/nobaseURL'
 import BackButton from '../components/BackButton'
 
+
 const DetailScreen = ({ navigation }) => {
     const [response, setResponse] = useState([])
     const data = navigation.getParam('data')
