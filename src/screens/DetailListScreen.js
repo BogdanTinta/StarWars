@@ -53,7 +53,6 @@ DetailListScreen.navigationOptions = () => {
         headerShown: false,
     }
 }
-
 const styles = StyleSheet.create({
     title: {
         color: '#FFE81F',
