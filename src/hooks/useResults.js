@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import starwars from '../api/starwars'
 
+
 export default () => {
     const [results, setResults] = useState([])
     const [errorMessage, setErrorMessage] = useState('')
